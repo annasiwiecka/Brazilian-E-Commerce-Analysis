@@ -1,0 +1,10 @@
+CREATE DATABASE brazilian_e_commerce
+WITH
+	OWNER = postgres
+	TEMPLATE = template0
+	ENCODING = 'UTF8'
+	CONNECTION LIMIT = 100
+	TABLESPACE = pg_default
+	LC_COLLATE = 'en_US.UTF-8'
+	LC_CTYPE = 'en_US.UTF-8'
+	ALLOW_CONNECTIONS = true;
